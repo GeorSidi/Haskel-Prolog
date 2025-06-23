@@ -1,2 +1,2 @@
 # Haskel-Prolog
-##Infos in the txt
+## *Infos in the txt
