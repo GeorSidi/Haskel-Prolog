@@ -35,4 +35,5 @@
        Haskel function higher class type[u]->(u->Int->v)->[v].
         p.e.: >mapi [7,8,5,10,4,2,3,2,2,1] (^)
               >[7,64,125,10000,1024,64,2187,256,512,1]
-
+==================================Lab3 - Lab4 Tasks=======================================
+Basic prolog functions about the given infos 
