@@ -1,0 +1,38 @@
+=================================Lab1 Tasks=======================================
+  Task1:
+    Haskel function to count the number of 0,3,6,9 in an Integer, type Integer -> Int.
+      p.e.: > count 457309582
+            > 3
+  Task2:
+    Haskel function for kgcd of 3 nummbers, type Int->Int->Int->Int.
+      p.e.: > kgcd 35 24 1
+            > 1
+  Task3:
+    Haskel function for counting the sec from the start of the year, type (Int,Int)->(Int,Int,Int)->Int.
+      p.e.: > seconds (1,1) (0,0,8)
+            > 8
+  Task4:
+     Haskel function for sum, type(Int->Int->Int->Int)->Int->Int->Int.
+      p.e.: > sumfab (\x y z -> x^2) (-4) 4
+            > 144
+==================================Lab2 Tasks=======================================
+    Task1:
+      Haskel function to count the distance of a list of numbers and return that 
+      with the min, type [Int]->Int->Int.
+        p.e.: > nearest [0] 5
+              > 1
+    Task2:
+      Haskel function from a list of integers returns a new list where each element 
+      is the integer part of the average-- of 'k' consecutive elements from the input list.
+      for kgcd of 3 nummbers, type Int->Int->Int->Int.
+        p.e.: > smooth [2,25,16,7,1,32,50,5,87,0] 1
+              > [2,25,16,7,1,32,50,5,87,0]
+    Task3:
+      Haskel function changing the order of couples words in a list, type String->String.
+        p.e.: >swap "one two"
+              >"two one"
+    Task4:
+       Haskel function higher class type[u]->(u->Int->v)->[v].
+        p.e.: >mapi [7,8,5,10,4,2,3,2,2,1] (^)
+              >[7,64,125,10000,1024,64,2187,256,512,1]
+
